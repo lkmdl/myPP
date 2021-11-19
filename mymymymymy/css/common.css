@@ -15,10 +15,14 @@ a{
 nav.bx.navb {
     position: absolute;
     top: 17px;
+    left: 0;
 }
 
 h2.menu1 {
     position: absolute;
+    top: 0;
+    left: 0;
+
 }
 
 .bx {
@@ -35,11 +39,14 @@ h2.menu1 {
     position: absolute;
     width: 100%;
     top: 10%;
+    left: 0;
 
 }
 
 .bx.fb {
     position: absolute;
+    top: 0;
+    left: 0;
     bottom: 0;
     width: 100%;
 }
