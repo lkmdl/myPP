@@ -1,1 +1,72 @@
 @charset "utf-8";
+
+/* 1.상단영역 박스 */
+#top.part{
+    width: 1200px;
+    height: 10px;
+}
+
+/* 1-1. 페이지 타이틀 */
+#h1.tit{
+    width: auto;
+    height: 100%;
+    text-align: center;
+    line-height: 80px;
+    font-family: serif; /* ? */
+    text-shadow: 0; /* ? */
+}
+
+/* 1-2 전체메뉴(GNB) */
+#GNB{
+    position: absolute;
+    width: auto;
+    height: auto;
+    font-family:serif;/* ? */
+    font-size: 14px;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    color: #fff;
+}
+
+/* 2.메인영역 박스 */
+main#cont.part{
+    width: 1200px;
+    height: 788px;
+}
+
+/* 2-1 스크린박스 */
+div#screen{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 701px;
+    height: 398px;
+}
+
+/* 2-2 예고편선택메뉴 */
+ul>li>img{
+    display: block;
+    width: 99px;
+    height: 140px;
+}
+
+/* 3하단영역 박스 */
+footer#info.part{
+    width: 1200px;
+    height: 100px;
+}
+
+/* 3-1 하단정보:로고,회사주소*/
+address img{
+    float:left;
+}
+
+/* 3-2 SNS 박스 */
+ul.li{
+    background: url();
+}
+ul.li>a{
+    /* ???? */
+}
+
