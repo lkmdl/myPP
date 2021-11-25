@@ -126,7 +126,6 @@ li {
     width: 90%;
     height: 1500px;
     margin: 0 auto;
-    outline: 3px dotted yellow
 }
 
 /* 가상요소로 부모 박스 clear:both만들기 */
@@ -151,17 +150,8 @@ li {
     float: left;
     /* 나는 왼쪽에 있고 아랫쪽 요소는 오른쪽으로 흘러가라 */
 
-    outline: 5px dashed black;
 
     transition: margin-top .6s ease-out;
-}
-
-/* 캐릭터 이미지 */
-.ci>img {
-    /* 직계자식(>)이미지만 선택! */
-    display: none;
-    /* 이미지의 height는 자동(비율유지) */
-    outline: dotted red;
 }
 
 /* 캐릭터 이름 */
