@@ -13,29 +13,8 @@ body {
 }
 
 /**************************** 공통 class *******************************/
-
-/* 스크롤바 트랙 디자인 변경 class */
-/* -webkit- 벤더사명(크롬, 사파리) 접두어 */
-.scbar::-webkit-scrollbar {
-    /* 전체 스크롤바 크기변경 */
-    width: 5px;
-}
-
-.scbar::-webkit-scrollbar-thumb {
-    /* 스크롤바 */
-    background-color: #666;
-    border-radius: 5px;
-}
-
-.scbar::-webkit-scrollbar-track {
-    /* 스크롤바 트랙 */
-    background-color: #ccc;
-    border-radius: 5px;
-}
-
 /* 리스트초기화 */
-ul,
-ol {
+ul,ol {
     /* 3無 */
     margin: 0;
     padding: 0;
@@ -64,6 +43,7 @@ li {
     min-height: 100px;
     background-color: #fffa;
     border-bottom: 1px solid #ccc;
+    z-index: 1;
 }
 
 /* 1-2. GNB메뉴 */
@@ -80,34 +60,16 @@ li {
 
 /* gnb a요소 공통 */
 .gnb a {
-    font-size: 20px;
+    font-size: 2vw;
     color: #000;
     text-decoration: none;
     line-height: 54px;
-
     font-family: 'Nanum Gothic', sans-serif;
+    z-index: 9999;
 }
 
 .gnb>ul>li:hover>a {
     border-bottom: 4px solid #000;
-}
-
-/* 모바일용 햄버거 버튼 */
-.ham {
-    position: absolute;
-    top: 5px;
-    right: 10px;
-
-    width: 50px;
-    height: 70px;
-    font-size: 40px;
-
-    /* 버튼 기본 보더, 배경색 없애기 */
-    border: none;
-    background-color: transparent;
-
-    display: none;
-    /* 처음에 안보임 */
 }
 
 /**************************** 컨텐츠영역 *******************************/
@@ -115,7 +77,6 @@ li {
     background: url(../img/bg.jpg) no-repeat;
     background-size: 100% 100%;
     min-height: 1600px;
-    z-index: 9999;
 }
 
 /* 2-1.캐릭터 박스 */
@@ -137,10 +98,11 @@ li {
 
 /* 캐릭터 박스 공통 */
 .cat {
+    position: relative;
     width: 100%;
     /* 2등분 */
     height: 50%;
-
+    margin-top: -3%;
     padding: 10px;
     box-sizing: border-box;
     /* 패딩때문에 박스가 커지지 않게 패딩을 내부로 포함 */
@@ -151,7 +113,7 @@ li {
     /* 나는 왼쪽에 있고 아랫쪽 요소는 오른쪽으로 흘러가라 */
 
 
-    transition: margin-top .6s ease-out;
+    transition: margin-top .6s ease-in-out;
 }
 
 /* 캐릭터 이름 */
@@ -165,37 +127,25 @@ li {
     마진도 상대적으로 변경되게함 */
 }
 
-/* 캐릭터 이름 이미지 */
-.ci span img {
-    width: 40%;
-}
-
-/* 캐릭터 이름 첫번째 이미지 숨기기 */
-.ci span img:first-child {
-    display: none;
-}
-
 /* 캐릭터 설명박스 */
-.cd {
+.cat .cd {
+    position: absolute;
     height: 0;
+    overflow: hidden;
     /* .cat에 오버시 250px로 변경 */
-    overflow-y: scroll;
-    /* 스크롤 y축만 생성, 넘치는 자식요소 보이기 */
-    border-radius: 5px 0px 0px 5px;
-    /* 둥근모서리: 왼위 오른위 오른아래 왼아래 */
-
-    margin-top: 10px;
-
+    border-radius: 5px 5px 5px 5px;
+    margin: 10px;
+    padding: 10px;
     /* 트랜지션: 속시이지 */
-    transition: height .6s ease-out;
+    transition: height .3s ease-out;
 }
 
-div .cat:hover .cd {
+div.cat:hover .cd {
+    display: inline;
     position: absolute;
-        width: 50%;
-        height: 45%;
-        background-color: #fffa;
-        margin-top: 2%;
+    width: 25%;
+    height: 50%;
+    background-color: #fffa;
 }
 
 /* 캐릭터 설명 타이틀 */
@@ -204,21 +154,18 @@ div .cat:hover .cd {
     font-size: 24px;
     font-weight: normal;
     padding: 5px 10px 0px;
-    /* 패딩: 위 양쪽 아래 */
 }
 
 /* 캐릭터 설명 문단 */
-.cd p {
+.cd {
+    height: 0;
     font-family: 'Hi Melody';
     font-size: 20px;
     line-height: 1.7;
     padding: 10px;
-    /* 패딩: 4방향 */
-    text-align: justify;
-    /* 양쪽정렬 */
 }
 
-/***************************** 하단영역 ********************************/
+/*****************************하단영역********************************/
 .info {
     font-family: 'Nanum Gothic', sans-serif;
     /* min-height: 240px; */
