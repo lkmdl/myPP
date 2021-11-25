@@ -37,8 +37,8 @@ body {
 ul,
 ol {
     /* 3無 */
-    /* margin: 0; */
-    /* padding: 0; */
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
 
@@ -115,6 +115,7 @@ li {
     background: url(../img/bg.jpg) no-repeat;
     background-size: 100% 100%;
     min-height: 1600px;
+    z-index: 9999;
 }
 
 /* 2-1.캐릭터 박스 */
@@ -123,7 +124,7 @@ li {
     top: 50px;
     /* 원래 위치로 부터 400px */
     width: 90%;
-    height: 1200px;
+    height: 1500px;
     margin: 0 auto;
     outline: 3px dotted yellow
 }
@@ -137,9 +138,9 @@ li {
 
 /* 캐릭터 박스 공통 */
 .cat {
-    width: 33%;
-    /* 3등분 */
-    /* height: 100%; */
+    width: 100%;
+    /* 2등분 */
+    height: 50%;
 
     padding: 10px;
     box-sizing: border-box;
@@ -150,16 +151,15 @@ li {
     float: left;
     /* 나는 왼쪽에 있고 아랫쪽 요소는 오른쪽으로 흘러가라 */
 
-    /* outline: 5px dashed black; */
+    outline: 5px dashed black;
 
     transition: margin-top .6s ease-out;
 }
 
-
 /* 캐릭터 이미지 */
 .ci>img {
     /* 직계자식(>)이미지만 선택! */
-    width: 100%;
+    display: none;
     /* 이미지의 height는 자동(비율유지) */
     outline: dotted red;
 }
@@ -185,29 +185,6 @@ li {
     display: none;
 }
 
-.H {
-    position: relative;
-    top: 0px;
-
-}
-
-.L {
-    position: relative;
-    top: 0px;
-
-}
-
-/* .cat박스에 마우스 오버시 */
-/* 캐릭터 이름 첫번째 이미지보이기  */
-.cat:hover .ci span img:first-child {
-    display: inline;
-}
-
-/* 캐릭터 이름 마지막 이미지 숨기기*/
-.cat:hover .ci span img:last-child {
-    display: none;
-}
-
 /* 캐릭터 설명박스 */
 .cd {
     height: 0;
@@ -223,9 +200,12 @@ li {
     transition: height .6s ease-out;
 }
 
-.cat:hover .cd {
-    height: 500px;
-    background-color: #fffa;
+div .cat:hover .cd {
+    position: absolute;
+        width: 50%;
+        height: 45%;
+        background-color: #fffa;
+        margin-top: 2%;
 }
 
 /* 캐릭터 설명 타이틀 */
@@ -265,6 +245,7 @@ ul.bmenu {
     전환한다! */
     margin: 0 auto;
     /* 마영오! 가로중앙 */
+    z-index: 1;
 }
 
 .bmenu a {
