@@ -1,0 +1,5 @@
+beautify file - Ctrl+Alt+B
+Emmet약어래핑 - Ctrl+Alt+A
+Emmet태그 업데이트 - Ctrl+Alt+I
+Emmet태그제거 - Ctrl+Alt+K
+
