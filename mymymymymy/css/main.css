@@ -1,0 +1,58 @@
+@charset "utf-8";
+@import url(./common.css);
+
+body * {
+    outline: 1px dotted tomato;
+}
+
+body {
+    background-color: #cdc6be;
+}
+
+h1 {
+    height: 40vh;
+    font-size: 20vh;
+    text-align: center;
+    color: #cdc6be;
+    background-color: #1d1d1b;
+}
+
+.cont {
+    height: 100vh;
+    margin: 0 2vw;
+}
+
+.top.fbx {
+    display: flex;
+    padding: 0 5vw;
+    height: 100%;
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #999;
+}
+
+.cont.fbx {
+    display: flex;
+    height:  40%;
+    outline: 5px dotted green;
+}
+
+.cont.fbx div {
+    margin: 10px;
+    height: 10vh
+}
+
+.cont div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.img1{
+    background: url(/mymymymymy/img/gogh.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    
+}
