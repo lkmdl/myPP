@@ -22,3 +22,7 @@ a{
 .ff{
 font-family: 'Lemonada', cursive;
 }
+
+.fbx {
+    display:flex;
+}

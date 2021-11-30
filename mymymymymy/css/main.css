@@ -9,50 +9,37 @@ body {
     background-color: #cdc6be;
 }
 
-h1 {
-    height: 40vh;
+h1 {    
     font-size: 20vh;
-    text-align: center;
     color: #cdc6be;
     background-color: #1d1d1b;
-}
 
-.cont {
-    height: 100vh;
-    margin: 0 2vw;
 }
-
-.top.fbx {
-    display: flex;
-    padding: 0 5vw;
-    height: 100%;
-    font-size: 1.5vw;
-    display: flex;
+.top.fbx{
+    border-bottom:3px solid #ddd;
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-between;
-    border-bottom: 1px solid #999;
 }
 
-.cont.fbx {
+.cont.fbx{
     display: flex;
-    height:  40%;
-    outline: 5px dotted green;
-}
-
-.cont.fbx div {
-    margin: 10px;
-    height: 10vh
+    align-content: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
 }
 
 .cont div {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+    width: 300px;
+    height: 300px;
 }
 
+
+
 .img1{
-    background: url(/mymymymymy/img/gogh.jpg);
+    background: url(/mymymymymy/img/gogh.jpg) center/cover;
     background-repeat: no-repeat;
     background-size:cover;
-
     
 }
