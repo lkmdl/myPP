@@ -5,40 +5,108 @@ body * {
     outline: 3px dotted yellow;
 }
 
-.top {
+body {
+    position: relative;
+    background-color: mediumaquamarine;
+}
+
+/* 상단영역 */
+#top {
     height: 80px;
-    background-color: #fff;
-}
-
-.cont {
-
-    height: 650px;
-    background:url(/2000.12월03일까지/img/bg.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-.into {
-    height: 100px;
-    background-color: #aaaa;
-}
-
-.top.fbx {
-    justify-content: space-between;    
-}
-
-.lef{
-}
-
-.cen h3 {
-    width: 572px;
-    border: 1px solid #ccc;
-    line-height: 2;
-}
-
-.cen :nth-child(2){
-    width: 40px;
     text-align: center;
+    font-size: 20px;
     line-height: 2;
+    font-family: 'Dongle', sans-serif;
 }
 
+/* 컨텐츠 영역 */
+#cont {
+    background: url(/2000.12월03일까지/img/bg.jpg);
+    background-size: 100vw 100vh;
+    height: 84vh;
+}
+
+.rbx {
+    position: relative;
+}
+
+.rbx::before {
+    content: '';
+    display: block;
+}
+
+/* 티비 스크린 */
+.screen {
+    position: absolute;
+    top: 28vh;
+    left: 41vw;
+    width: 32vw;
+    height: 27.5vh;
+    border-radius: 5%;
+    object-fit: cover;
+    border: 2px solid #662913;
+}
+
+#ifr {
+    position: absolute;
+    /* 부모 - .screen */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+
+#into {
+    height: 80px;
+}
+
+.ch {
+    position: absolute;
+    /* 부모 =  .cont */
+    outline: 1px solid red;
+    /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@임시 */
+    cursor: wait;
+}
+
+.ch1 {
+    width: 1.7vw;
+    height: 1vh;
+    left: 34vw;
+    bottom: 18.5vh;
+}
+
+.ch2 {
+    width: 1.7vw;
+    height: 1vh;
+    left: 36.3vw;
+    bottom: 18.25vh;
+}
+
+.ch3 {
+    width: 1.5vw;
+    height: 1vh;
+    left: 39vw;
+    bottom: 18vh;
+}
+
+.ch4 {
+    width: 1.6vw;
+    height: 1vh;
+    left: 32.2vw;
+    bottom: 17.25vh;
+}
+
+.ch5 {
+    width: 1.6vw;
+    height: 1vh;
+    left: 34.5vw;
+    bottom: 17vh;
+}
+
+.ch6 {
+    width: 1.7vw;
+    height: 1vh;
+    left: 37.1vw;
+    bottom: 16.7vh;
+}
