@@ -1,15 +1,16 @@
 @charset "utf-8";
 @import url(./common.css);
 
-body {    
+body {
     background-color: #cdc6be;
 }
 
-body header{
+/* top */
+body header {
     margin: 0 0 2vw 0;
 }
 
-header{
+header {
     padding: 1.7vh;
     border-bottom: 1px solid #666;
 }
@@ -25,9 +26,10 @@ h1 {
 header.fbx {
     text-align: center;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
+/* cont */
 div.ibx1.fbx {
     width: 100%;
     height: 37vh;
@@ -35,25 +37,30 @@ div.ibx1.fbx {
     justify-content: space-around;
 }
 
-div.ibx2.fbx {
-height: 100px;
-}
-
 .ibx1 .img {
     width: 13vw;
     height: 20vh;
     background: url(#) center;
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size: contain;
     border: 1px solid #000;
 }
 
-div.ibx2 .img {
-    width: 13vw;
-    height: 10vh;
+.ibx2.fbx>div {
+    width: 50vw;
+    height: 100vh;
     background: url(#) center;
     background-repeat: no-repeat;
-    background-size:contain;
-    border: 1px solid #000;
+    background-size: contain;
+    /* border: 1px solid #000; */
+}
+
+.ibx2.fbx>div:nth-child(1) {
+    outline: 3px solid gold;
+}
+
+.ibx2.fbx>div:nth-child(2) {
+    outline: 3px solid #fff;
+
 }
 
