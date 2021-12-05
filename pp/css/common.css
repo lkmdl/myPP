@@ -1,0 +1,62 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@700&display=swap');
+
+/* font-family: 'Lemonada', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Shojumaru&display=swap');
+
+/* font-family: 'Shojumaru', cursive; */
+
+
+body * { /* 토마토 */
+    outline: 1px dotted tomato;
+}
+
+html,
+body { /* ㅇㅇ */
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-wrap: hidden;
+}
+
+a,
+ol,
+ul,
+h1 { /* 텍스트 공통 */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+ display: block;
+}
+
+.ff {/* 폰트 */
+    font-family: 'Lemonada', cursive;
+}
+
+.ff2 {/* 폰트2 */
+    font-family: 'Shojumaru', cursive;
+}
+
+.fbx {/* 플렉스 박스 */
+    display: flex;
+}
+
+.lr {/* 좌우 패딩 */
+    padding: 0 1.9vw;
+}
+
+/* 
+.rbx {
+    position: relative;
+}
+
+.rbx::before {
+    content: '';
+    display: block;
+} 
+*/
