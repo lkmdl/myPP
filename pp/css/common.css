@@ -17,13 +17,13 @@ body { /* ㅇㅇ */
     margin: 0;
     padding: 0;
     height: 100%;
-    overflow-wrap: hidden;
 }
 
 a,
 ol,
 ul,
 h1 { /* 텍스트 공통 */
+    color: #1d1d1b;
     margin: 0;
     padding: 0;
     list-style: none;
