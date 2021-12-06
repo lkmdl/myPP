@@ -9,3 +9,6 @@ Emmet태그 업데이트
 
 Emmet태그제거
 선택된 줄 제거- Ctrl+Alt+K
+
+https://kirifuda.co.jp/contact/
+https://www.niccolomiranda.com/

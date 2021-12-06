@@ -1,8 +1,8 @@
 @charset "utf-8";
 @import url(./common.css);
 
-#cont{
-height:11111px;
+#cont {
+    height: 11111px;
 }
 
 body {
@@ -20,7 +20,7 @@ header {
 }
 
 h1 {
-    margin-bottom: 6.5vh;
+    margin-bottom: 3vh;
     font-size: 16vw;
     line-height: 24vw;
     color: #cdc6be;
@@ -36,23 +36,23 @@ header.fbx {
 
 /* cont */
 div.ibx1.fbx {
-    /* width: 100%; */
+    width: 100%;
     height: 37vh;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.ibx1.fbx>div{
+.ibx1.fbx>div {
     margin-top: 0.5vh;
     margin-left: 1.5vw;
-    width: 30vw;
-    height: 32vh;
+    width: 27vw;
+    height: 34vh;
     border-right: 1px solid #666;
     /* outline: 3px dotted yellow; */
 }
 
 .ibx1 .img {
-    width: 27.8vw;
+    width: 25vw;
     height: 20vh;
     background: url(#) center;
     background-repeat: no-repeat;
@@ -61,7 +61,7 @@ div.ibx1.fbx {
 }
 
 .ibx2.fbx>div {
-    height: 100vh;
+    height: 200vh;
     background: url(#) center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -70,11 +70,34 @@ div.ibx1.fbx {
 
 .ibx2.fbx>div:nth-child(1) {
     width: 35.5vw;
-    outline: 3px solid gold;
+    outline: 1px solid red;
 }
 
 .ibx2.fbx>div:nth-child(2) {
     width: 64.5vw;
-    outline: 3px solid #fff;
+    outline: 1px solid blue;
 }
 
+.ibx2.fbx>div>a:nth-child(1) {
+    font-size: 8vw;
+    line-height: 10vw;
+    /* outline: 3px dotted #fff; */
+}
+
+.ibx2.fbx>div>a:nth-child(2) {
+    font-size: 10vw;
+    line-height: 12vw;
+    /* outline: 3px dotted yellow; */
+}
+
+div.ibx2.img1 {
+    width: 33.5vw;
+    height: 60vh;
+    outline: 3px solid yellow;
+}
+
+div.ibx2.img2 {
+    width: 61.5vw;
+    height: 63.5vh;
+    outline: 3px solid white;
+}
