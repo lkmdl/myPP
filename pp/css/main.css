@@ -48,7 +48,7 @@ div.ibx1.fbx {
     width: 27vw;
     height: 34vh;
     border-right: 1px solid #666;
-    /* outline: 3px dotted yellow; */
+    outline: 3px dotted yellow;
 }
 
 .ibx1 .img {
