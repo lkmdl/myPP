@@ -78,8 +78,7 @@ div.ibx1.fbx {
 }
 
 .ibx2.fbx>div:nth-child(2) {
-    width: 64.5vw;
-    
+    width: 64.5vw;    
     /* outline: 1px solid blue; */
 }
 
@@ -129,11 +128,6 @@ div.bar2>h1{
 .bx2>h2 {
     font-size: 2vw;
     line-height: 1.5;
-}
-
-.ibx3 .fbx {
-
-
 }
 
 .left {
