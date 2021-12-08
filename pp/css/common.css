@@ -7,24 +7,28 @@
 
 /* font-family: 'Shojumaru', cursive; */
 
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+/* font-family: 'Rock Salt', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap');
+
+/* font-family: 'Nanum Myeongjo', serif; */
+
+
 
 body * { /* 토마토 */
-    /* outline: 1px dotted tomato; */
+    outline: 1px dotted tomato;
 }
 
-html,
-body { /* ㅇㅇ */
+html,body
+{ /* ㅇㅇ */
     margin: 0;
     padding: 0;
     height: 100%;
 }
 
-a,
-h1,
-h2,
-h3,
-ol,
-ul
+a,h1,h2,h3,h4,h5,ol,ul
 { /* 텍스트 공통 */
     color: #1d1d1b;
     margin: 0;
@@ -33,13 +37,13 @@ ul
     text-decoration: none;
 }
 
-h2 {
-    font-size: 8vw;
+h3 {
+    font-size: 7vw;
     line-height: 10vw;
 }
 
-h3{
-    font-size: 10vw;
+h4{
+    font-size: 9vw;
     line-height: 12vw;
 }
 
@@ -47,12 +51,8 @@ a {
  display: block;
 }
 
-.ff {/* 폰트 */
-    font-family: 'Lemonada', cursive;
-}
-
-.ff2 {/* 폰트2 */
-    font-family: 'Shojumaru', cursive;
+.ff3 {/* 폰트3  */
+    font-family: 'Rock Salt', cursive;
 }
 
 .fbx {/* 플렉스 박스 */

@@ -1,8 +1,6 @@
 @charset "utf-8";
 @import url(./common.css);
 
-
-
 #cont {
     height: 11111px;
 }
@@ -11,7 +9,7 @@ body {
     background-color: #cdc6be;
 }
 
-/* top */
+/* 상단 */
 body header {
     margin: 0 0 2vw 0;
 }
@@ -24,15 +22,17 @@ header {
 }
 
 header.fbx {
+    position: relative;
+    /* display: none; */
     text-align: center;
     flex-direction: row;
     justify-content: space-between;
 }
 
-h1 {
+.bar1>h1 {
     margin-bottom: 3vh;
-    font-size: 16vw;
-    line-height: 24vw;
+    font-size: 16.5vw;
+    line-height: 31vw;
     color: #cdc6be;
     text-align: center;
     background-color: #1d1d1b;
@@ -47,7 +47,7 @@ div.ibx1.fbx {
     justify-content: space-around;
 }
 
-.bx:nth-child(2){
+.bx1:nth-child(2){
     padding: 0 3vw;
     height: 34vh;
     border-left: 1px solid #666;
@@ -64,10 +64,8 @@ div.ibx1.fbx {
 }
 
 .ibx2.fbx>div {
-    height: 200vh;
-    background: url(#) center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    height: 120vh;
+    margin-bottom: 10vh;
     /* border: 1px solid #000; */
 }
 
@@ -75,22 +73,20 @@ div.ibx1.fbx {
     width: 35.5vw;
     padding-right: 3vw;
     border-right: 1px solid #666;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 .ibx2.fbx>div:nth-child(2) {
     width: 64.5vw;
-    outline: 1px solid blue;
+    /* outline: 1px solid blue; */
 }
 
 .ibx2.fbx>div>h2 {
-
-    outline: 3px dotted #fff;
+    /* outline: 3px dotted #fff; */
 }
 
 .ibx2.fbx>div>h3 {
-
-    outline: 3px dotted yellow;
+    /* outline: 3px dotted yellow; */
 }
 
 div.ibx2.img1 {
@@ -102,4 +98,22 @@ div.ibx2.img2 {
     margin: 0 auto;
     height: 63.5vh;
     outline: 3px solid white;
+}
+
+.bar.fbx {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.bar2>h1{
+    font-size: 10vw;
+    line-height: 31vw;
+    color: #cdc6be;
+    text-align: center;
+    background-color: #1d1d1b;
+}
+
+.bar2 div.img {
+    width: 20vw;
+    outline: 3px solid yellow;
 }
