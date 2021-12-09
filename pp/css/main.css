@@ -98,7 +98,7 @@ div.ibx2 .img1 {
 div.ibx2 .img2 {
     margin: 0 auto;
     height: 63.5vh;
-    outline: 3px solid white;
+    outline: 3px solid yellow;
 }
 
 div.bar2{
@@ -119,8 +119,8 @@ div.bar2>h1{
 }
 
 .bar2>div.img {
-    width: 20vw;
-    height: 40vh;
+    width: 100%;
+    height: 50vh;
     margin: 30px;
     outline: yellow solid 3px;
 }
@@ -131,27 +131,53 @@ div.bar2>h1{
 }
 
 .left {
-    width: 65vw;
-    height: 100vh;
+    width: 50%;
+    height: 30vh;
 }
 
 .left.fbx {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.left .img {
+.left>.img1 {
+    width: 50%;
+    height: 30vh;
+    /* outline: 3px dotted yellow; */
+}
+
+.left>.img2 {
+
+    width: 100%;
+    height: 30vh;
+    /* outline: 3px dotted yellow; */
+}
+
+.bx3 {
+    font-size: 3vw;
+    width: 50%;
+    height: 30vh;
+    /* outline: 3px dotted white; */
+}
+
+
+.bx4 {
     width: 10vw;
     height: 10vh;
-    outline: 3px dotted yellow;
+    /* outline: 1px dotted white; */
 }
 
+.bx4 .img {
+    width: 15vw;
+    height: 15vh;
+    outline: 3px dotted red;
 
+}
 
 .right {
-    width: 35vw;
+    width: 50%;
     height: 100vh;
     padding-left: 3vw;
-    border-left: 1px solid #666;
 }
 
