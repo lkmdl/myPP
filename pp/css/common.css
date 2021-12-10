@@ -1,9 +1,12 @@
 @charset "utf-8";
 
-
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 
 /* font-family: 'Rock Salt', cursive; */
+
+html{
+    scroll-behavior: smooth;
+}
 
 body * { /* 토마토 */
     outline: 1px dotted tomato;
@@ -23,16 +26,6 @@ a,h1,h2,h3,h4,h5,ol,ul
     padding: 0;
     list-style: none;
     text-decoration: none;
-}
-
-h3 {
-    font-size: 6vw;
-    line-height: 7.5vw;
-}
-
-h4{
-    font-size: 8vw;
-    line-height: 10.5vw;
 }
 
 a {

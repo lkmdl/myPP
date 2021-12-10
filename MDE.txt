@@ -1,14 +1,37 @@
+My Development Environment
+
+ExxxxxxxxxxxxxxTenSSSSSSSSSSSSSion
+Baautify
+CSS Peek
+HTML to CSS autocompletion
+Image preview
+Korean Language
+Live Server
+
+
+
+
+
+
+
+Ctrllllllllllllll+Kkkkkkkkkkkkk+Sssssssssss
 beautify file
 (자동 줄 맞춤) - Ctrl+Alt+B
-
 Emmet약어래핑
 (주석) - Ctrl+Alt+A
-
 Emmet태그 업데이트
 선택된 태그 바꾸기 - Ctrl+Alt+I
-
 Emmet태그제거
 선택된 줄 제거- Ctrl+Alt+K
+
+
+
+
+
+
+
+
+
 
 https://kirifuda.co.jp/contact/
 https://www.niccolomiranda.com/
