@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+/* font-family: 'Rock Salt', cursive; */
+
 /* font-family: 'Rock Salt', cursive; */
 
 html{
@@ -21,13 +25,14 @@ html,body
 
 a,h1,h2,h3,h4,h5,ol,ul
 { /* 텍스트 공통 */
-    color: #1d1d1b;
+    /* color: #1d1d1b; */
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
 }
 
+/* display:inline -> display: block; */
 a {
  display: block;
 }
@@ -44,6 +49,8 @@ a {
 .lr {/* 좌우 패딩 */
     padding: 0 1.9vw;
 }
+
+
 
 /* 
 .rbx {
