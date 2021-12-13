@@ -2,14 +2,83 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
-
 /* font-family: 'Rock Salt', cursive; */
 
-/* font-family: 'Rock Salt', cursive; */
+/********************************* 햄벅 영역 *********************************/
+#nav.on .nav {
+    top: 0;
+}
+
+#nav.on .top h2 {
+    color: white;
+}
+
+#nav.on div.mbox {
+    margin: 0 auto;
+    width: 43%;
+    margin-top: 100px;
+}
+
+#nav.on .nav a {
+    font-size: 10vw;
+    text-align: center;
+    color: #cdc6be;
+}
+
+#nav.on .nav a:first-child{
+    margin-top: 12vw;
+}
+
+#nav.on #cont,#bottom{
+    display: none;    
+}
+
+#nav.on header {
+    background-color: #1d1d1b;
+    color: #cdc6be;
+}
+
+
+.menu {
+    cursor: pointer;
+}
+
+.nav {
+    /* 화면에 고정 */
+    position: fixed;
+    /* 화면 밖으로 숨김 */
+    top: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #1d1d1b;
+
+    /* 트랜지션 */
+    transition: top .2s ease-out;
+}
+
+#top {
+    position: fixed;
+    width: 100%;
+    /* background-color: #cdc6be; */
+}
+
+header {
+    padding: 2.1vh;
+    background-color: #cdc6be;
+    border-bottom: 1px solid #666;
+    justify-content: space-between;
+}
+
+/********************************* 햄벅 영역 *********************************/
+
 
 html{
     scroll-behavior: smooth;
+}
+
+.scr::-webkit-scrollbar {
+    /* 전체 스크롤바 크기변경 */
+    width: 0;
 }
 
 body * { /* 토마토 */
@@ -21,6 +90,7 @@ html,body
     margin: 0;
     padding: 0;
     height: 100%;
+    overflow-x: hidden;
 }
 
 a,h1,h2,h3,h4,h5,ol,ul

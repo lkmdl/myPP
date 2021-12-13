@@ -1,19 +1,26 @@
 @charset "utf-8";
-@import url(common.css);
+@import url(./common.css);
 
 .wb {
-  width: 100%;
-  height: 100%;
+  top: 100px;
+  height: 100vh;
+  text-align: center;
 }
 
 div.w {
-  background-color: #cdc6be;
   color: #1d1d1b;
   font-family: 'Rock Salt', cursive;
+  background-color: #cdc6be;
 }
 
 div.b {
-  background-color: #1d1d1b;
   color: #cdc6be;
   font-family: 'Rock Salt', cursive;
+  background-color: #1d1d1b;
+}
+
+div .w,
+.b {
+  margin-top: 99px;
+  width: 50%;
 }
