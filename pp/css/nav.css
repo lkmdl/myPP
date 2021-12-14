@@ -15,22 +15,16 @@ header {
     width: 100%;
 }
 
-#top.on header {
-    background-color: #1d1d1b;
+#top.on a h2{
     color: #cdc6be;
 }
 
-#top.on #cont,#bottom,footer{
-    display: none;
+#top.on header {
+    background-color: #1d1d1b;
 }
 
 #top.on .nav {
-    position: absolute;
-    top: 0;
-}
-
-#top.on .top h2 {
-    color: white;
+    top: 100px;
 }
 
 #top.on .nav a {
@@ -46,6 +40,5 @@ header {
     height: 100vh;
     background-color: #1d1d1b;
 
-    /* 트랜지션 */
     transition: top .2s ease-out;
 }

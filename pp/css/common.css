@@ -4,49 +4,58 @@
 
 /* font-family: 'Rock Salt', cursive; */
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body * { /* 토마토 */
+body * {
+    /* 토마토 */
     /* outline: 1px dotted tomato; */
 }
 
-html,body
-{ /* ㅇㅇ */
+html,
+body {
+    /* ㅇㅇ */
     margin: 0;
     padding: 0;
     height: 100%;
     overflow-x: hidden;
 }
 
-a,h1,h2,h3,h4,h5,ol,ul
-{ /* 텍스트 공통 */
-    /* color: #1d1d1b; */
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+ol,
+ul {
+    /* 텍스트 공통 */
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
 }
 
-/* display:inline -> display: block; */
 a {
- display: block;
+    display: block;
 }
 
-.ff3 {/* 폰트3  */
+.ff3 {
+    /* 폰트3  */
     font-family: 'Rock Salt';
     font-weight: normal;
 }
 
-.fbx {/* 플렉스 박스 */
+.fbx {
+    /* 플렉스 박스 */
     display: flex;
 }
 
-.lr {/* 좌우 패딩 */
+.lr {
+    /* 좌우 패딩 */
     padding: 0 1.9vw;
 }
-
 
 
 /* 
