@@ -1,0 +1,28 @@
+@charset "utf-8";
+@import url(./common.css);
+
+.ang {
+    width: 100px;
+    height: 100vh;
+}
+.card1 {
+    background-color: red;
+}
+.card2 {
+    background-color:orange
+}
+.card3 {
+    background-color:yellow
+}
+.card4 {
+    background-color:green
+}
+.card5 {
+    background-color:blue
+}
+.card6 {
+    background-color:navy
+}
+.card7 {
+    background-color:purple
+}

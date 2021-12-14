@@ -1,80 +1,15 @@
 @charset "utf-8";
-
+@import url(./nav.css);
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 
 /* font-family: 'Rock Salt', cursive; */
-
-/********************************* 햄벅 영역 *********************************/
-.menu {
-    cursor: pointer;
-}
-
-#top.on #cont,#bottom,footer{
-    display: none;
-}
-
-#top.on .nav {
-    top: 100px;
-}
-
-#top.on .top h2 {
-    color: white;
-}
-
-#top.on div.mbox {
-    margin: 0 auto;
-    width: 43%;
-    /* margin-top: 100px; ******************************************************/
-}
-
-#top.on .nav a {
-    font-size: 10vw;
-    text-align: center;
-    color: #cdc6be;
-}
-
-#top.on header {
-    background-color: #1d1d1b;
-    color: #cdc6be;}
-
-
-
-
-
-/********************************* 햄벅 영역 *********************************/
-
-.nav {
-    /* 화면에 고정 */
-    position: fixed;
-    /* 화면 밖으로 숨김 */
-    top: -100%;
-    width: 100%;
-    height: 100%;
-    background-color: #1d1d1b;
-
-    /* 트랜지션 */
-    transition: top .2s ease-out;
-}
-
-#top {
-    position: fixed;
-    width: 100%;
-    /* background-color: #cdc6be; */
-}
-
-header {
-    padding: 2.1vh;
-    background-color: #cdc6be;
-    border-bottom: 1px solid #666;
-    justify-content: space-between;
-}
 
 html{
     scroll-behavior: smooth;
 }
 
 body * { /* 토마토 */
-    outline: 1px dotted tomato;
+    /* outline: 1px dotted tomato; */
 }
 
 html,body
