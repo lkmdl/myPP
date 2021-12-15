@@ -4,11 +4,22 @@
 body {
     background-color: #cdc6be;
 }
+
 /********************************** 컨텐츠 영역 **********************************/
 
 /************************************* ibx1 *************************************/
 #top.on .nav :nth-child(1) {
-    text-decoration:line-through tomato;
+    text-decoration: line-through tomato;
+}
+
+#top.on .nav :nth-child(2):hover {
+    text-decoration: line-through tomato;
+    transition: text-decoration .5s ease-in;
+}
+
+#top.on .nav :nth-child(3):hover {
+    text-decoration: line-through tomato;
+    transition: text-decoration .5s ease-in;
 }
 
 #cont {
@@ -200,8 +211,8 @@ div.ibx4 {
     outline: 5px solid yellow;
 }
 
- .bx h2 {
-     width: 14vw;
+.bx h2 {
+    width: 14vw;
 }
 
 

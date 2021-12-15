@@ -12,33 +12,13 @@ window.addEventListener("DOMContentLoaded",()=>{
   document.querySelector(".menu").onclick =()=>{
     // console.log("클릭클릭클릭");
 
-    var top = document.querySelector("#top");
-    console.log("ㅌㅌ탑")
+    let top = document.querySelector("#top");
+    console.log("탑")
     top.classList.toggle("on");
-    
+
+
   }; // click //
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
