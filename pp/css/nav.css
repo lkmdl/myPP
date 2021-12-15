@@ -3,6 +3,8 @@
     cursor: pointer;
 }
 
+
+
 header {
     padding: 2.1vh;
     background-color: #cdc6be;
@@ -10,12 +12,16 @@ header {
     justify-content: space-between;
 }
 
+header a {
+    color: #1d1d1b;
+}
+
 #top {
     position: fixed;
     width: 100%;
 }
 
-#top.on a h2{
+#top.on h2{
     color: #cdc6be;
 }
 
@@ -24,7 +30,7 @@ header {
 }
 
 #top.on .nav {
-    top: 100px;
+    top: auto;
 }
 
 #top.on .nav a {
