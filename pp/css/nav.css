@@ -1,4 +1,5 @@
 @charset "utf-8";
+
 .menu {
     cursor: pointer;
 }
@@ -6,7 +7,9 @@
 
 
 header {
-    padding: 2.1vh;
+    width: 100%;
+    height: 100px;
+    align-items: center;
     background-color: #cdc6be;
     border-bottom: 1px solid #666;
     justify-content: space-between;
@@ -26,8 +29,14 @@ header a {
 }
 
 #top.on header {
+    color: #cdc6be;
     background-color: #1d1d1b;
 }
+
+#top .top header>a {
+    color: #1d1d1b;
+}
+
 
 #top.on .nav {
     top: auto;
