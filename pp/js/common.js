@@ -1,8 +1,7 @@
-/////////////////////////////////////////////////// loading area
+///////////////////////////////////////////////////// loading area
 /////////////////////////////////////////////////////////////////
 window.addEventListener("DOMContentLoaded",()=>{
-  console.log("loading complete");
-
+  // console.log("loading complete");
  
   /******************************************************
    * 함수명: munu click
@@ -10,14 +9,13 @@ window.addEventListener("DOMContentLoaded",()=>{
   ******************************************************/
   // click //
   document.querySelector(".menu").onclick =()=>{
-    // console.log("클릭클릭클릭");
-
+    // console.log("click click click");
     let top = document.querySelector("#top");
-    console.log("탑")
+    // console.log("탑")
     top.classList.toggle("on");
-
-
   }; // click //
+
+  
  
 
 

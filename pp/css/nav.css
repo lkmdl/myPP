@@ -13,6 +13,11 @@ header {
     justify-content: space-between;
 }
 
+header>div {
+    width: 13%;
+    text-align: center;
+}
+
 header a {
     color: #1d1d1b;
 }
@@ -35,9 +40,8 @@ header a {
     color: #1d1d1b;
 }
 
-
 #top.on .nav {
-    top:auto;
+    top:101px;
 }
 
 #top.on .nav a {
