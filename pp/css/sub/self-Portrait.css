@@ -1,0 +1,37 @@
+@charset "utf-8";
+@import url(/pp/css/common.css);
+
+#top.on .nav :nth-child(1):hover{
+  text-decoration: line-through tomato;
+  transition: text-decoration .5s ease-in;
+}
+
+#top.on .nav :nth-child(2):hover {
+  text-decoration: line-through tomato;
+  transition: text-decoration .5s ease-in;
+}
+
+#top.on .nav :nth-child(3):hover {
+  text-decoration: line-through tomato;
+  transition: text-decoration .5s ease-in;
+}
+
+#cont {
+  position: relative;
+  top: 101px;
+  height:100%;
+}
+
+.cont {
+  width: 100px;
+  height: 100%;
+  background-image: url(/pp/img/22.png) ;
+}
+
+.effect {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background-image:url(/pp/img/effect.png);
+  z-index: 999;
+}

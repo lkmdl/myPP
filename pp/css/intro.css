@@ -5,9 +5,8 @@ body {
     background-color: #cdc6be;
 }
 
-/********************************** 컨텐츠 영역 **********************************/
+/******************************** manu  ******************************* */
 
-/************************************* ibx1 *************************************/
 #top.on .nav :nth-child(1) {
     text-decoration: line-through tomato;
 }
@@ -21,6 +20,9 @@ body {
     text-decoration: line-through tomato;
     transition: text-decoration .5s ease-in;
 }
+/********************************** 컨텐츠 영역 **********************************/
+
+/************************************* ibx1 *************************************/
 
 #cont {
     padding-top: 150px;
@@ -31,13 +33,19 @@ div.ibx1 {
     justify-content: space-around;
 }
 
+.bx1 :nth-child(1) {
+    overflow: hidden;
+}
+
 .bx1:nth-child(1) .img {
     outline: 5px dotted red;
-
     width: 25vw;
     height: 20vh;
-    background: url(#) center;
+    background: url(/pp/img/22-1.png) center no-repeat;
     background-repeat: no-repeat;
+}
+.bx1:nth-child(1) .img:hover {
+    transform: scale(1.5);
 }
 
 .bx1:nth-child(2) .img {
@@ -214,7 +222,6 @@ div.ibx4 {
 .bx h2 {
     width: 14vw;
 }
-
 
 /* ibx5 */
 .ibx5 div {
