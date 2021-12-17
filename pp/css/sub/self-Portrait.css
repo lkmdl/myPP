@@ -17,21 +17,18 @@
 }
 
 #cont {
-  position: relative;
-  top: 101px;
   height:100%;
 }
 
-.cont {
-  width: 100px;
-  height: 100%;
-  background-image: url(/pp/img/22.png) ;
+.bg {
+  padding-top: 100%;
+  height: 100px;
+  background: url(/pp/img/22.png) center/cover no-repeat;
 }
 
 .effect {
-  position: absolute;
   width: 100%;
-  height: 100px;
-  background-image:url(/pp/img/effect.png);
-  z-index: 999;
+  height: 30vh;
+
+  background:url(/pp/img/effect.png) center/cover no-repeat;
 }

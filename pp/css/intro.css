@@ -20,6 +20,7 @@ body {
     text-decoration: line-through tomato;
     transition: text-decoration .5s ease-in;
 }
+
 /********************************** 컨텐츠 영역 **********************************/
 
 /************************************* ibx1 *************************************/
@@ -33,17 +34,19 @@ div.ibx1 {
     justify-content: space-around;
 }
 
-.bx1 :nth-child(1) {
+.bx1 a {
     overflow: hidden;
+    transition: scale .5s ease-in-out;
 }
 
+
+
 .bx1:nth-child(1) .img {
-    outline: 5px dotted red;
     width: 25vw;
     height: 20vh;
     background: url(/pp/img/22-1.png) center no-repeat;
-    background-repeat: no-repeat;
 }
+
 .bx1:nth-child(1) .img:hover {
     transform: scale(1.5);
 }
@@ -52,21 +55,23 @@ div.ibx1 {
     outline: 5px dotted orange;
 
     width: 25vw;
+    text-align: center;
     height: 20vh;
-    background: url(#) center;
-    background-repeat: no-repeat;
+    /* background: url(#) center; */
+    /* background-repeat: no-repeat; */
 
-    border-left: 1px solid #666;
-    border-right: 1px solid #666;
+    /* border-left: 1px solid #666; */
+    /* border-right: 1px solid #666; */
 }
 
 .bx1:nth-child(3) .img {
-    outline: 5px dotted green;
-
     width: 25vw;
     height: 20vh;
-    background: url(#) center;
-    background-repeat: no-repeat;
+    background: url(/pp/img/33-1.png) center no-repeat
+}
+
+.bx1:nth-child(3) .img:hover {
+    transform: scale(1.5);
 }
 
 /********************** bar1 **********************/

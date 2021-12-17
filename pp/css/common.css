@@ -11,7 +11,7 @@ html {
 body * {
     /* 토마토 */
     outline: 1px dotted tomato;
-    background-color: #cdc6be;
+    /* background-color: #cdc6be; */
 }
 
 html,
