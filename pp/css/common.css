@@ -5,7 +5,13 @@
 /* font-family: 'Rock Salt', cursive; */
 
 html {
+    
     scroll-behavior: smooth;
+}
+
+.scbar::-webkit-scrollbar {
+    /* 전체 스크롤바 크기변경 */
+    width: 0px;
 }
 
 body * {
