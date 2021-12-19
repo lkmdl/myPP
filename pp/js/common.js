@@ -1,25 +1,25 @@
 ///////////////////////////////////////////////////// loading area
 /////////////////////////////////////////////////////////////////
 window.addEventListener("DOMContentLoaded",()=>{
-  // console.log("loading complete");
- 
+  console.log("loading complete");
+  
+  // 함수 모음
+
   /******************************************************
    * 함수명: munu click
    * 기능: 메뉴 클릭시 .nav 열림
+   ******************************************************/
+ let top = document.querySelector("#top");
+ /******************************************************
+  * 함수명: 
+  * 기능: 
   ******************************************************/
-  // click //
+
+  // menu click //
   document.querySelector(".menu").onclick =()=>{
     // console.log("click click click");
-    let top = document.querySelector("#top");
-    // console.log("탑")
-    top.classList.toggle("on");
-  }; // click //
-
-  
- 
-
-
-
+  top.classList.toggle("on");
+  }; // menu click //
 
 });////////////////////////////////////////////////// loading area
 //////////////////////////////////////////////////////////////////

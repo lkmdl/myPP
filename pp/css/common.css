@@ -14,8 +14,13 @@ html {
 
 body * {
     /* 토마토 */
-    outline: 1px dotted tomato;
-    /* background-color: #cdc6be; */
+    /* outline: 1px dotted tomato; */
+
+    /* 드래그 하지마!! */
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
 }
 
 html,
@@ -58,7 +63,7 @@ a {
 
 
 .rbx {
-    height: auto;
+    position: relative;;
 }
 
 .rbx::before {

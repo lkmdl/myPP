@@ -6,15 +6,18 @@
 
 #top.on .nav :nth-child(1):hover {
     text-decoration: line-through tomato;
+    filter: drop-shadow(2px 4px 6px black);
     transition: text-decoration .5s ease-in;
 }
 
 #top.on .nav :nth-child(2) {
     text-decoration: line-through tomato;
+    filter: brightness(50%);
 }
 
 #top.on .nav :nth-child(3):hover {
     text-decoration: line-through tomato;
+    filter: drop-shadow(2px 4px 6px black);
     transition: text-decoration .5s ease-in;
 }
 
@@ -26,7 +29,6 @@
 
 .card1 {
     background-color: red;
-    left: 0;
 }
 
 .card2 {
@@ -51,6 +53,12 @@
 
 .card7 {
     background-color: purple;
+}
+
+ul {
+    margin-top:2%;
+    font-size: 2vw;
+    text-align: center;
 }
 
 .card1:hover {

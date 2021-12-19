@@ -10,15 +10,18 @@ body {
 
 #top.on .nav :nth-child(1) {
     text-decoration: line-through tomato;
+    filter: brightness(50%);
 }
 
 #top.on .nav :nth-child(2):hover {
     text-decoration: line-through tomato;
+    filter: drop-shadow(2px 4px 6px black);
     transition: text-decoration .5s ease-in;
 }
 
 #top.on .nav :nth-child(3):hover {
     text-decoration: line-through tomato;
+    filter: drop-shadow(2px 4px 6px black);
     transition: text-decoration .5s ease-in;
 }
 
@@ -40,12 +43,11 @@ div.ibx1 {
     transition: scale .5s ease-in-out;
 }
 
-
-
 .bx1:nth-child(1) .img {
     width: 25vw;
     height: 20vh;
-    background: url(/pp/img/22-1.png) center no-repeat;
+    background: url(/pp/img/mm.png) center no-repeat;
+        
 }
 
 .bx1:nth-child(1) .img:hover {
@@ -53,26 +55,25 @@ div.ibx1 {
 }
 
 .bx1:nth-child(2) .img {
-    outline: 5px dotted orange;
-
     width: 25vw;
-    text-align: center;
     height: 20vh;
-    /* background: url(#) center; */
-    /* background-repeat: no-repeat; */
+    background: url(/pp/img/22-1.png) center no-repeat;
+}
 
-    /* border-left: 1px solid #666; */
-    /* border-right: 1px solid #666; */
+.bx1:nth-child(2) .img:hover {
+    /* transform: scale(1.5); */
+    filter:invert(70%);
+    cursor:no-drop;
 }
 
 .bx1:nth-child(3) .img {
     width: 25vw;
     height: 20vh;
-    background: url(/pp/img/33-1.png) center no-repeat
 }
 
 .bx1:nth-child(3) .img:hover {
     transform: scale(1.5);
+    cursor: initial;
 }
 
 /********************** bar1 **********************/
@@ -90,7 +91,7 @@ div.ibx1 {
 
 /************************************* ibx2 *************************************/
 .ibx2>div {
-    height: 1000px;
+    height: 500px;
     /* outline: 5px solid #000; */
 }
 
@@ -108,14 +109,25 @@ div.ibx1 {
 }
 
 div.ibx2 .img1 {
+    background: url(/pp/img/ppp.png) center no-repeat;
+    background-size: 100% 100%;
     height: 49.5%;
-    outline: 5px solid yellow;
+    /* outline: 5px solid yellow; */
 }
+
+div.ibx2 .img1:hover {
+    background: url(/pp/img/pp.png) center no-repeat;
+    background-size: 100% 100%;
+    height: 49.5%;
+}
+
+
 
 div.ibx2 .img2 {
     margin: 0 auto;
     height: 56.5%;
-    outline: 5px solid yellow;
+    background: url(/pp/img/SSD.png) no-repeat center;
+    /* outline: 5px solid yellow; */
 }
 
 /********************** bar2 **********************/
@@ -126,10 +138,19 @@ div.ibx2 .img2 {
     background-color: #1d1d1b;
 }
 
+.bar2 h1:hover {
+    width: 70%;
+    font-size: 11vw;
+    color: #cdc6be;
+    background: url(/pp/img/sss.jpg) no-repeat center/100%;
+    background-color: #1d1d1b;
+}
+
 .bar2 div.img {
     margin: 2vw 0 2vw 5vw;
     width: 20%;
-    outline: 5px solid yellow;
+    background: url(/pp/img/mm.png) center no-repeat;
+    /* outline: 5px solid yellow; */
 }
 
 .bx2>h2 {
@@ -165,13 +186,14 @@ div.ibx2 .img2 {
 .left .img1 {
     width: 100%;
     height: 60%;
-    outline: 5px solid yellow;
+    background: url(/pp/img/ppp.png) center no-repeat;
+    /* outline: 5px solid yellow; */
 }
 
 .left>.img2 {
     width: 100%;
     height: 200%;
-    outline: 5px solid yellow;
+    /* outline: 5px solid yellow; */
 
 }
 
@@ -222,7 +244,8 @@ div.ibx4 {
 .ibx4 .img {
     width: 7vw;
     height: 100%;
-    outline: 5px solid yellow;
+    background: url(/pp/img/ppp.png) center no-repeat;
+    /* outline: 5px solid yellow; */
 }
 
 .bx h2 {
@@ -230,17 +253,34 @@ div.ibx4 {
 }
 
 footer {
-    padding: 3vw 2vw 2vw;
+    padding: 3vw 0 2vw;
 }
 
 .mbx {
+    padding: 2vw;
+    left: 0;
+    width: 200%;
     font-size: 6vw;
     line-height: 8vw;
-    padding: 2vw;
-    justify-content: space-evenly;
     border-top: 1px solid #666;
     border-bottom: 1px solid #666;
+
+    animation: leftGo 5s linear infinite;
 }
+
+@keyframes leftGo {
+    to{
+        left: -100%;
+    }
+}
+
+
+.mbx :nth-child(2) {
+    margin: 0 0 0 5px;
+    color: #fff;
+    background-color: #000;
+}
+
 
 .into {
     margin-top: 2vw;
