@@ -22,3 +22,26 @@
 
 /******************************** manu  ******************************* */
 
+/********************************cont  */
+ul {
+    margin-left: 102px;
+    height:100vh;
+}
+
+.hide {
+    width: 100px;
+    height: 100%;
+    background-color: antiquewhite;
+    writing-mode:vertical-lr;
+    transform:rotateZ(180deg);
+}
+
+.hide>a {
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+}
+
+.hide:hover a {
+    height: 100vh;
+}

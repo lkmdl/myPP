@@ -125,7 +125,7 @@ div.ibx2 .img1:hover {
 
 div.ibx2 .img2 {
     margin: 0 auto;
-    height: 56.5%;
+    height: 75%;
     background: url(/pp/img/ssd.png) no-repeat center;
     /* outline: 5px solid yellow; */
 }
@@ -149,7 +149,7 @@ div.ibx2 .img2 {
 .bar2 div.img {
     margin: 2vw 0 2vw 5vw;
     width: 20%;
-    background: url(/pp/img/mm.png) center no-repeat;
+    background: url(/pp/img/mm2.png) center no-repeat;
     /* outline: 5px solid yellow; */
 }
 

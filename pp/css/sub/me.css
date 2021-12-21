@@ -2,7 +2,7 @@
 @import url(/pp/css/common.css);
 /******************************** manu  ******************************* */
 
-#back {
+.back {
   position: absolute;
   top: 30px;
   left: 30px;
@@ -11,6 +11,7 @@
   text-align: center;
   background-color: #cdc6be;
   border-radius: 5%;
+  cursor: pointer;
   z-index: 999;
 }
 
