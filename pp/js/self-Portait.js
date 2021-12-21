@@ -6,6 +6,7 @@ window.addEventListener("DOMContentLoaded",()=>{
     /******************************************************
      ******************************************************/
    let back = document.querySelector(".back");
+   let menu = document.querySelector(".menu");
    /******************************************************
     ******************************************************/
     back.onclick =
@@ -13,6 +14,5 @@ window.addEventListener("DOMContentLoaded",()=>{
     //   console.log("click click click");
       location.href = "../intro.html";
     } 
-  
   });////////////////////////////////////////////////// loading area
   //////////////////////////////////////////////////////////////////

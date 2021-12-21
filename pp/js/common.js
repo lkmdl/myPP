@@ -6,11 +6,12 @@ window.addEventListener("DOMContentLoaded",()=>{
   /******************************************************
    ******************************************************/
  let top = document.querySelector("#top");
+ let menu = document.querySelector(".menu");
  /******************************************************
   ******************************************************/
 
   // menu click //
-  top.onclick =
+  menu.onclick =
   ()=>{
     // console.log("click click click");
     top.classList.toggle("on");

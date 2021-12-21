@@ -1,11 +1,11 @@
 @charset "utf-8";
 
-.click {
+.menu {
     cursor: pointer;
 }
 
 header {
-    position: absolute;
+    position: relative;
     width: 101px;
     height: 100vh;
     line-height: 1;
