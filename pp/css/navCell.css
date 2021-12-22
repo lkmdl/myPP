@@ -38,6 +38,7 @@ header a {
 #top {
     position: fixed;
     width: 100%;
+    z-index: 9999;
 }
 
 #top.on .nav {
