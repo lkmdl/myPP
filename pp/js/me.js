@@ -6,12 +6,18 @@ window.addEventListener("DOMContentLoaded",()=>{
     /******************************************************
      ******************************************************/
    let back = document.querySelector(".back");
+   let tit = document.querySelector(".tit");
    /******************************************************
     ******************************************************/
     back.onclick =
     ()=>{
     //   console.log("click click click");
       location.href = "../intro.html";
+    }
+
+    tit.onclick =
+    ()=>{
+      location.href = "../intro.html"
     }
   
   
