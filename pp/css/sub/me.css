@@ -19,6 +19,11 @@ body {
   background: url(/pp/img/mm.png);
 }
 
+#cont {
+  width: 100%;
+  height: 100vh;
+}
+
 .set {
   position: relative;
   margin:0 auto;
@@ -30,6 +35,16 @@ body {
 
   cursor: pointer;
 }
+
+.cont {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  outline : 3px dotted red;
+}
+
+
+
 
 
 
