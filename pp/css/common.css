@@ -14,7 +14,7 @@ html {
 
 body * {
     /* 토마토 */
-    outline: 3px dotted blue;
+    /* outline: 3px dotted tomato; */
 
     /* 드래그 하지마!! */
     -webkit-user-select:none;
