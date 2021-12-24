@@ -14,13 +14,7 @@ window.addEventListener("DOMContentLoaded",()=>{
     //   console.log("click click click");
       location.href = "../intro.html";
     }
+   
 
-    tit.onclick =
-    ()=>{
-      location.href = "../intro.html"
-    }
-  
-  
-  
   });////////////////////////////////////////////////// loading area
   //////////////////////////////////////////////////////////////////

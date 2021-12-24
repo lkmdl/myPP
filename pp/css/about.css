@@ -37,18 +37,62 @@
     height: 100%;
 }
 
-.img {
+.img1 {
     position: absolute;
+    width: 0vw;
     right: 100px;
-    width: 90vw;
-    /* 호버시 100% */
     height: 100%;
-    background-color: rgba(0, 0, 255, 0.741);
+    background: url(/pp/img/pj.jpg) no-repeat 100%/100%;
+    transform: rotate(180deg);
 }
 
 .bx1 {
     position: absolute;
     right: 0;
+    height: 100%;
+    text-align: center;
+    font-size: 50px;
+    writing-mode: vertical-lr;
+    color: #cdc6be;
+    background-color: #1d1d1b;
+}
+
+
+
+.img2 {
+    position: absolute;
+    top: 0px;
+    width: 31vw;
+    right: 100px;
+    height: 100%;
+    background: url(/pp/img/pj.jpg) no-repeat 100%/100%;
+    transform: rotate(180deg);
+}
+
+.bx2 {
+    position: absolute;
+    right: 5.4%;
+    height: 100%;
+    text-align: center;
+    font-size: 50px;
+    writing-mode: vertical-lr;
+    color: #cdc6be;
+    background-color: #1d1d1b;
+}
+
+.img3 {
+    position: absolute;
+    top: 0px;
+    width: 31vw;
+    right: 100px;
+    height: 100%;
+    background: url(/pp/img/pj.jpg) no-repeat 100%/100%;
+    transform: rotate(180deg);
+}
+
+.bx3 {
+    position: absolute;
+    right: 10.8%;
     height: 100%;
     text-align: center;
     font-size: 50px;

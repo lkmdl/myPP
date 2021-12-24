@@ -6,7 +6,7 @@
 
 header {
     width: 100%;
-    height: 101px;
+    height: 100px;
     line-height: 1;
     align-items: center;
     background-color: #cdc6be;
@@ -26,6 +26,7 @@ header a {
 #top {
     position: fixed;
     width: 100%;
+    z-index: 9999;
 }
 
 #top.on h2 {

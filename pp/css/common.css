@@ -4,7 +4,7 @@
 /* font-family: 'Rock Salt', cursive; */
 
 html {    
-    scroll-behavior: smooth;
+    white-space: nowrap;
 }
 
 .scbar::-webkit-scrollbar {
@@ -14,7 +14,7 @@ html {
 
 body * {
     /* 토마토 */
-    /* outline: 3px dotted blue; */
+    outline: 3px dotted blue;
 
     /* 드래그 하지마!! */
     -webkit-user-select:none;
