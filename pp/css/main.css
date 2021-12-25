@@ -46,7 +46,8 @@ div.ibx1 {
 .bx1:nth-child(1) .img {
     width: 25vw;
     height: 20vh;
-    background: url(/pp/img/4.png) center no-repeat;
+    background: url(/pp/img/pipe.png) no-repeat;
+    background-size:100% 100%;
         
 }
 
@@ -57,7 +58,8 @@ div.ibx1 {
 .bx1:nth-child(2) .img {
     width: 25vw;
     height: 20vh;
-    background: url(/pp/img/4.png) center no-repeat;
+    background: url(/pp/img/angle.png) center no-repeat;
+    background-size:100% 100%;
 }
 
 .bx1:nth-child(2) .img:hover {
@@ -67,9 +69,10 @@ div.ibx1 {
 }
 
 .bx1:nth-child(3) .img {
-    background: url(/pp/img/night.png) center no-repeat;
     width: 25vw;
     height: 20vh;
+    background: url(/pp/img/night.png) center no-repeat;
+    background-size:100% 100%;
 }
 
 .bx1:nth-child(3) .img:hover {
@@ -129,7 +132,7 @@ div.ibx2 .img1:hover {
 
 div.ibx2 .img2 {
     height: 77%;
-    background: url(/pp/img/giveme.jpg) 
+    background: url(/pp/img/giveme1.jpg) 
     no-repeat;
     background-size: 100% 100%;
     /* outline: 5px solid yellow; */
@@ -155,7 +158,7 @@ div.ibx2 .img2:hover {
     width: 70%;
     font-size: 10vw;
     color: #1d1d1b;
-    background: url(/pp/img/sss.jpg) no-repeat center; background-size: 100% 100%;
+    background: url(/pp/img/invertEye.jpg) no-repeat center; background-size: 100% 100%;
 }
 
 .bar2 div.img {
@@ -198,7 +201,7 @@ div.ibx2 .img2:hover {
 .left .img1 {
     width: 100%;
     height: 60%;
-    background: url(/pp/img/3.jpg) no-repeat;
+    background: url(/pp/img/2in1.jpg) no-repeat;
     background-size: 100% 100%;
     /* outline: 5px solid yellow; */
 }
