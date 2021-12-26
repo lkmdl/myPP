@@ -8,10 +8,10 @@ header {
     position: relative;
     width: 101px;
     height: 100vh;
+    color: #1d1d1b;
     line-height: 1;
-    writing-mode: vertical-rl;
     align-items: center;
-    background-color: #cdc6be;
+    writing-mode: vertical-rl;
     justify-content: space-between;
     border-left: 1px solid #666;
     transform: rotate(180deg);

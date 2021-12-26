@@ -10,7 +10,7 @@ window.addEventListener("DOMContentLoaded",()=>{
     ******************************************************/
     enter.onclick =
     ()=>{
-      location.href = "/pp/html/main.html";
+      location.href = "html/main.html";
     }
 
   });////////////////////////////////////////////////// loading area
