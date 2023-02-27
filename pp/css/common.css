@@ -62,10 +62,12 @@ a {
 }
 
 .rbx {
+    /* 비율유지 박스 */
     position: relative;;
 }
 
 .rbx::before {
+    /* 비율유지 옵션! */
     content: '';
     display: block;
 } 

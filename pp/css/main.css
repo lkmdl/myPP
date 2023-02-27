@@ -1,6 +1,10 @@
 @charset "utf-8";
 @import url(./common.css);
 @import url(./nav.css);
+/* 
+body * {
+    outline : 3px dotted red;
+} */
 
 body {
     background-color: #cdc6be;
@@ -34,22 +38,28 @@ body {
 }
 
 div.ibx1 {
+    height: 195.5px;
     flex-direction: row;
     justify-content: space-around;
 }
 
+
+
 .bx1 a {
+    height: 100%;
     overflow: hidden;
     transition: scale .5s ease-in-out;
 }
 
 .bx1:nth-child(1) .img {
     width: 25vw;
-    height: 20vh;
+    height: 100%;
     background: url(../img/pipe.png) no-repeat;
     background-size: 100% 100%;
 
 }
+
+
 
 .bx1:nth-child(1) .img:hover {
     transform: scale(1.5);
@@ -57,7 +67,7 @@ div.ibx1 {
 
 .bx1:nth-child(2) .img {
     width: 30vw;
-    height: 20vh;
+    height: 100%;
     line-height: 1.5;
     text-align: center;
     font-size: 2vw;
@@ -66,13 +76,14 @@ div.ibx1 {
     border-right: 1px solid #666;
 }
 
-.bx1:nth-child(2) .img>a {
+.bx1:nth-child(2) .img h2 {
+    height: 50%;
     color: #1d1d1b;
 }
 
 .bx1:nth-child(3) .img {
     width: 25vw;
-    height: 20vh;
+    height: 100%;
     background: url(../img/night.png) center no-repeat;
     background-size: 100% 100%;
 }

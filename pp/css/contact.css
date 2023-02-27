@@ -5,6 +5,7 @@
 /******************************** manu  ******************************* */
 
 #top.on .nav :nth-child(1):hover {
+  
   text-decoration: line-through tomato;
   filter: drop-shadow(2px 4px 6px black);
   transition: text-decoration .5s ease-in;
