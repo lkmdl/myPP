@@ -11,11 +11,14 @@ body {
   background: url(../img/join1.png) center/cover no-repeat;
   background-color: #cdc6be;
   z-index: 1;
+
 }
 
 .on {
   background: url(../img/join2.png) center/cover no-repeat;
+  
 }
+
 
 .effect {
   position: relative;

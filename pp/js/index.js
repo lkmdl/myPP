@@ -13,19 +13,17 @@ window.addEventListener("DOMContentLoaded",()=>{
       location.href = "html/main.html";
     }
 
-    $(".go").mouseover(function(){
+    $(".go").hover(function(){
       $(".bg")
       .toggleClass('on')
       // .css
       // ("background", "url('../img/join2.png')");
-      console.log("a")
     });
-    
-    $(".go").mouseout(function(){
-      $(".bg")
-      .toggleClass('on')
-      console.log("aa")
-    });
+
+    // $(".go").mouseout(function(){
+    //   $(".bg")
+    //   .toggleClass('on')
+    // });
 
   });////////////////////////////////////////////////// loading area
   //////////////////////////////////////////////////////////////////
