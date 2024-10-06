@@ -7,7 +7,7 @@ body {
 }
 
 .bg {
-  padding-top: 35%;
+  padding-top: 34%;
   background: url(../img/join1.png) center/cover no-repeat;
   background-color: #cdc6be;
   z-index: 1;
@@ -93,7 +93,7 @@ body {
 }
 
 .cbg11 {
-  top: 60px;
+  top: 65px;
 }
 
 .cbox {
