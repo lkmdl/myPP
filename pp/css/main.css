@@ -1,10 +1,6 @@
 @charset "utf-8";
 @import url(./common.css);
 @import url(./nav.css);
-/* 
-body * {
-    outline : 3px dotted red;
-} */
 
 body {
     background-color: #cdc6be;
@@ -31,71 +27,15 @@ body {
 
 /********************************** 컨텐츠 영역 **********************************/
 
-/************************************* ibx1 *************************************/
 
 #cont {
     padding-top: 150px;
 }
 
-div.ibx1 {
-    height: 195.5px;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-
-
-.bx1 a {
-    height: 100%;
-    overflow: hidden;
-    transition: scale .5s ease-in-out;
-}
-
-.bx1:nth-child(1) .img {
-    width: 25vw;
-    height: 100%;
-    background: url(../img/pipe.png) no-repeat;
-    background-size: 100% 100%;
-
-}
-
-
-
-.bx1:nth-child(1) .img:hover {
-    transform: scale(1.5);
-}
-
-.bx1:nth-child(2) .img {
-    width: 30vw;
-    height: 100%;
-    line-height: 1.5;
-    text-align: center;
-    font-size: 2vw;
-    color: #1d1d1b;
-    border-left: 1px solid #666;
-    border-right: 1px solid #666;
-}
-
-.bx1:nth-child(2) .img h2 {
-    height: 50%;
-    color: #1d1d1b;
-}
-
-.bx1:nth-child(3) .img {
-    width: 25vw;
-    height: 100%;
-    background: url(../img/night.png) center no-repeat;
-    background-size: 100% 100%;
-}
-
-.bx1:nth-child(3) .img:hover {
-    filter: invert();
-    cursor: pointer;
-}
-
 /********************** bar1 **********************/
 .bar1 {
-    padding: 5vh 0;
+    padding: 0 0 5vh 0;
+
 }
 
 .bar1>h1 {
@@ -109,14 +49,14 @@ div.ibx1 {
 /************************************* ibx2 *************************************/
 .ibx2>div {
     height: 45vw;
-    /* outline: 5px solid #000; */
+
 }
+
 
 .ibx2>div:nth-child(1) {
     width: 30.5%;
     padding-right: 3vw;
-    border-right: 1px solid #666;
-    /* outline: 5px solid #000; */
+
 }
 
 .bx2 h4 {
@@ -127,14 +67,14 @@ div.ibx1 {
 .ibx2>div:nth-child(2) {
     width: 64.5vw;
     padding-left: 3.5vw;
-    /* outline: 1px solid blue; */
+
 }
 
 div.ibx2 .img1 {
     background: url(../img/back.jpg) center no-repeat;
     background-size: 100% 100%;
     height: 78%;
-    /* outline: 5px solid yellow; */
+
 }
 
 div.ibx2 .img1:hover {
@@ -147,7 +87,7 @@ div.ibx2 .img2 {
     height: 77%;
     background: url(../img/night.png) no-repeat;
     background-size: 100% 100%;
-    /* outline: 5px solid yellow; */
+
 }
 
 /********************** bar2 **********************/
@@ -157,6 +97,7 @@ div.ibx2 .img2 {
     font-size: 10vw;
     color: #cdc6be;
     background-color: #1d1d1b;
+
 }
 
 .bar2 h1:hover {
@@ -172,7 +113,7 @@ div.ibx2 .img2 {
     width: 20%;
     background: url(../img/Sunflower.png) center no-repeat;
     background-size: 100% 100%;
-    /* outline: 5px solid yellow; */
+
 }
 
 .bx2>h2,h4 {
@@ -184,8 +125,6 @@ div.ibx2 .img2 {
 /************************************* ibx3 *************************************/
 .ibx3 {
     margin: 3vw 0;
-    border-bottom: 1px solid #666;
-    /* outline: 5px solid #000; */
 
 }
 
@@ -193,18 +132,20 @@ div.ibx2 .img2 {
 .left {
     width: 65.5%;
     height: 30vh;
+
 }
 
 .left {
     flex-direction: row;
     flex-wrap: wrap;
+
 }
 
 .left>.box {
     padding-left: 3vw;
     width: 40%;
     height: 30vh;
-    border-left: 1px solid #666;
+
 }
 
 .left .img1 {
@@ -212,7 +153,7 @@ div.ibx2 .img2 {
     height: 60%;
     background: url(../img/2in1.jpg) no-repeat;
     background-size: 100% 100%;
-    /* outline: 5px solid yellow; */
+
 }
 
 .left .img1:hover {
@@ -224,7 +165,7 @@ div.ibx2 .img2 {
     height: 200%;
     background: url(../img/giveme1.jpg) no-repeat;
     background-size: 100% 100%;
-    /* outline: 5px solid yellow; */
+
 }
 
 .left>.img2:hover {
@@ -237,7 +178,7 @@ div.ibx2 .img2 {
     height: 100%;
     margin-bottom: 3vw;
     color: #1d1d1b;
-    /* outline: 3px solid red; */
+
 }
 
 .bx3 :nth-child(1) {
@@ -252,7 +193,7 @@ div.ibx2 .img2 {
     height: 35%;
     line-height: 1.5;
     font-size: 4.5vw;
-    /* outline: 1px dotted #000; */
+
 }
 
 .bx3 :nth-child(3) {
@@ -268,6 +209,7 @@ div.ibx2 .img2 {
     text-align: center;
     color: #cdc6be;
     background-color: #1d1d1b;
+
 }
 
 .box :nth-child(3) {
@@ -278,6 +220,7 @@ div.ibx2 .img2 {
     color: #cdc6be;
     background-color: #1d1d1b;
     text-decoration: 7px line-through red;
+
 }
 
 /********************** ibx right **********************/
@@ -286,7 +229,7 @@ div.ibx2 .img2 {
     width: 25.5%;
     height: 100vh;
     padding-left: 3vw;
-    border-left: 1px solid #666;
+
 }
 
 .text {
@@ -298,21 +241,13 @@ div.ibx2 .img2 {
     transform: rotate(280deg);
 }
 
-
-footer {
-    padding: 3vw 0 2vw;
-}
-
 .mbx {
     position: relative;
-    padding: 2 0vw;
     left: 5px;
     width: 200%;
     font-size: 6vw;
     color: #1d1d1b;
     line-height: 8vw;
-    border-top: 1px solid #666;
-    border-bottom: 1px solid #666;
     overflow: hidden;
     animation: leftGo 5s linear infinite;
 }
