@@ -164,6 +164,8 @@ body {
   position: absolute;
   top: 50%;
   left: 60%;
+  font-size: 1.5em;
+  font-weight: 500px;
   color: #1d1d1b;
   cursor: pointer;
   z-index: 10;
