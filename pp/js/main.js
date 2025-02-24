@@ -24,7 +24,6 @@ window.addEventListener("DOMContentLoaded",()=>{
   img.src = '../img/Sunflower.png';
   img.src = '../img/giveme1.jpg';
   img.src = '../img/giveme2.jpg';
-  img.src = '../img/effect.png';
   img.onload = function() {
     console.log("img load");
   };
