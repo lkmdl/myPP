@@ -20,10 +20,13 @@ window.addEventListener("DOMContentLoaded",()=>{
       // ("background", "url('../img/join2.png')");
     });
 
-    // $(".go").mouseout(function(){
-    //   $(".bg")
-    //   .toggleClass('on')
-    // });
+    var img = new Image();
+    img.src = '../img/join1.png';
+    img.src = '../img/join2.png';
+    img.src = '../img/effect.png';
+    img.onload = function() {
+      console.log("img load");
+    };
 
   });////////////////////////////////////////////////// loading area
   //////////////////////////////////////////////////////////////////
